@@ -1,0 +1,27 @@
+{
+    "name": "$COLLECTIONVENDOR$/$NAME$",
+    "description": "The Apply $STUDLYNAME$ Resource.",
+    "keywords": ["apply", "library", "$COLLECTION$", "$NAME$"],
+    "type": "apply",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Apply",
+            "email": "apply@creatyon.com"
+        }
+    ],
+    "require": {
+       "apply/library": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "$COLLECTIONSPACE$\\$STUDLYNAME$\\": "src/"
+        }
+    },
+    "extra": {
+        "apply": {
+            "vendor": "$COLLECTIONVENDOR$/$VENDOR$"
+        }
+    }
+}

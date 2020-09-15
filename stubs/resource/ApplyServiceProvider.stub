@@ -1,0 +1,39 @@
+<?php
+
+namespace $NAMESPACE$\Providers;
+
+use Aplify\Library\Support\Providers\ServiceProvider;
+
+class ApplyServiceProvider extends ServiceProvider
+{
+    /**
+     * Register any resource services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        $this
+            ->registerProviders()
+            //->registerAlias()
+            //->registerConfig()
+            //->registerConfigs()
+            //->registerDatabase()
+            //->registerGraphql()
+            //->registerViews()
+            //->registerRouteProvider(RouteServiceProvider::class)
+        ;
+    }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
+    public function provides()
+    {
+        return [
+            AppServiceProvider::class,
+        ];
+    }
+}

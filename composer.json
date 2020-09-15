@@ -1,0 +1,36 @@
+{
+  "name": "aplify/library",
+  "description": "Aplify Library is a powerful system modular",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/aplify/library",
+  "authors": [
+    {
+      "name": "Aplify Team",
+      "email": "aplify@creatyon.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": [
+      "helpers/library.php"
+    ],
+    "psr-4": {
+      "Aplify\\Library\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Aplify\\Library\\Providers\\LibraryServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

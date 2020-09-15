@@ -1,0 +1,10 @@
+<?php
+
+namespace $NAMESPACE$\Providers;
+
+use Aplify\Library\Support\Providers\RouteServiceProvider as ServiceProvider;
+
+class RouteServiceProvider extends ServiceProvider
+{
+    //
+}

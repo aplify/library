@@ -1,0 +1,13 @@
+{
+    "id": "$UUID$",
+    "name": "$NAME$",
+    "display_name": "$STUDLYNAME$",
+    "alias": null,
+    "description": "$STUDLYNAME$ Description",
+    "type": "$COLLECTION$",
+    "namespace": "$COLLECTIONSPACE$\\$STUDLYNAME$",
+    "core": 0,
+    "active": 1,
+    "installed": 0,
+    "order": 0
+}
