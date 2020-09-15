@@ -1,18 +1,18 @@
 {
     "name": "$COLLECTIONVENDOR$/$NAME$",
-    "description": "The Apply $STUDLYNAME$ Resource.",
-    "keywords": ["apply", "library", "$COLLECTION$", "$NAME$"],
-    "type": "apply",
+    "description": "The Aplify $STUDLYNAME$ Resource.",
+    "keywords": ["aplify", "library", "$COLLECTION$", "$NAME$"],
+    "type": "aplify",
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Apply",
-            "email": "apply@creatyon.com"
+            "name": "Aplify",
+            "email": "aplify@creatyon.com"
         }
     ],
     "require": {
-       "apply/library": "*"
+       "aplify/library": "*"
     },
     "autoload": {
         "psr-4": {
