@@ -21,7 +21,6 @@ class ApplyServiceProvider extends ServiceProvider
             //->registerDatabase()
             //->registerGraphql()
             //->registerViews()
-            //->registerRouteProvider(RouteServiceProvider::class)
         ;
     }
 
@@ -30,10 +29,11 @@ class ApplyServiceProvider extends ServiceProvider
      *
      * @return array
      */
-    public function provides()
+    public function providers()
     {
         return [
             AppServiceProvider::class,
+            RouteServiceProvider::class
         ];
     }
 }

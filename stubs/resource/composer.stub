@@ -20,7 +20,7 @@
         }
     },
     "extra": {
-        "apply": {
+        "aplify": {
             "vendor": "$COLLECTIONVENDOR$/$VENDOR$"
         }
     }
